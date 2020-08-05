@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   s.name             = 'WZUUID'
   s.version          = '2.0.1'
-  s.summary          = '唯一标示组件kit'
+  s.summary          = '唯一标示组件kit '
 
   s.description      = <<-DESC
     深圳我主良缘有限公司,iOS项目唯一标示组件.
