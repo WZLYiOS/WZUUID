@@ -1,0 +1,11 @@
+framework module WZUUID {
+  umbrella header "WZUUID-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module WZUUID.Swift {
+    header "WZUUID-Swift.h"
+    requires objc
+}

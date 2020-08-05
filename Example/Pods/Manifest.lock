@@ -1,0 +1,25 @@
+PODS:
+  - KeychainAccess (3.2.1)
+  - WZUUID (2.0.1):
+    - WZUUID/Source (= 2.0.1)
+  - WZUUID/Source (2.0.1):
+    - KeychainAccess (~> 3.2.0)
+
+DEPENDENCIES:
+  - WZUUID (from `../`)
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - KeychainAccess
+
+EXTERNAL SOURCES:
+  WZUUID:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KeychainAccess: d5470352939ced6d6f7fb51cb2e67aae51fc294f
+  WZUUID: c8c04bed45b6b672d8208bc96496ba5e30a591b8
+
+PODFILE CHECKSUM: 6fa66fe903497010f5f1a8f59b72d736eb5ac7db
+
+COCOAPODS: 1.9.1

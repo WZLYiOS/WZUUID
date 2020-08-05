@@ -1,0 +1,6 @@
+framework module WZUUID {
+  umbrella header "WZUUID-umbrella.h"
+
+  export *
+  module * { export * }
+}

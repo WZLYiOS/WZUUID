@@ -1,0 +1,14 @@
+source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+platform:ios, '9.0'
+use_frameworks!
+
+target 'WZUUID_Example' do
+  pod 'WZUUID', :path => '../'
+
+  target 'WZUUID_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
