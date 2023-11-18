@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name             = 'WZUUID'
-  s.version          = '2.1.1'
+  s.version          = '2.1.2'
   s.summary          = '唯一标示组件kit '
 
   s.description      = <<-DESC
@@ -16,12 +16,12 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.static_framework = true
   s.swift_version         = '5.0'
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '11.0'
   s.default_subspec = 'Source'
 
   s.subspec 'Source' do |ss|
     ss.source_files = 'WZUUID/Classes/*.swift'
-    ss.dependency "KeychainAccess", "~> 3.2.0"
+    ss.dependency "KeychainAccess", ">= 3.2.0"
   end
 
 
